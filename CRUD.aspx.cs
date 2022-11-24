@@ -4,7 +4,7 @@ protected void Page_Load(Object Sender, EventArgs e){
   }
 }
 
-sqlConnection con = new sqlconnection("Data Source= Pratik; Intial Catalog= MyDb; User ID= demo; Password=demo@123");
+sqlConnection con = new sqlconnection("Data Source= Kiran; Intial Catalog= MyDb; User ID= demo; Password=demo@123");
 
 protected void ButtonClick1(object sender, EventArgs e){
  con.Open();
